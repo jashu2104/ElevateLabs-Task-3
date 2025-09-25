@@ -1,19 +1,16 @@
-# Basic Vulnerability Scan — Task 3
+# Simulated Nessus Vulnerability Scan Report
 
-This repository contains the deliverables for the Basic Vulnerability Scan task.
+**Report:** Simulated Nessus Vulnerability Scan Report  
+**Generated on:** 2025-09-25 11:08 UTC  
+**Scanner:** Nessus (simulated)  
+**Scanned targets:** 127.0.0.1 (localhost)  
+
+> **NOTE:** This is a simulated/mock report created for assignment/demo purposes. It does NOT represent real scan results. Use it only for documentation or coursework where a sample report is acceptable.
 
 ## Contents
-- `reports/` — exported scan reports (PDF and raw).
-- `screenshots/` — screenshots showing the scan setup, progress and sample vulnerability.
-- `notes/vulnerabilities.md` — short descriptions and proposed remediation for the top findings.
+- `reports/nessus_simulated_report.pdf` — the PDF report (this file).
+- `notes/vulnerabilities.md` — expanded notes for each finding.
+- `README.md` — this file.
 
-## How I ran the scan
-- Tool: Nessus Essentials (or OpenVAS/GVM)
-- Target: 127.0.0.1 / local machine IP
-- Scan type: Basic Network Scan / Full and Fast
-
-## Top findings (example)
-1. Vulnerability Title — CVSS: 7.5  
-   - Evidence: open port 445, outdated SMB  
-   - Fix: disable SMBv1 and apply Windows updates.  
-
+## How to use
+Upload the PDF and supportive notes into your GitHub repo as the scan deliverable. If your instructor requires a real scan, run an authorized scan on your machine or VM and replace this simulated report with real outputs.

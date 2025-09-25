@@ -1,0 +1,7 @@
+{
+  "report_pdf": "/mnt/data/nessus_mock_report/reports/nessus_simulated_report.pdf",
+  "readme": "/mnt/data/nessus_mock_report/README.md",
+  "vulnerabilities_md": "/mnt/data/nessus_mock_report/notes/vulnerabilities.md",
+  "generated_on": "2025-09-25 11:08 UTC",
+  "notes": "This is a simulated report. Replace with real scan outputs when possible."
+}
